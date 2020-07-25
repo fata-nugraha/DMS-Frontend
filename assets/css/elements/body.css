@@ -1,0 +1,56 @@
+body {
+	background-color: #ffefc5;
+	font-family: "Roboto", Helvetica, sans-serif;
+	line-height: 1;
+	font-size: 18px;
+	color: #f6791e;
+	margin: 0;
+	padding: 0;
+}
+
+input {
+	padding: 2px 10px;
+	border-radius: 8px;
+	color: #f6791e;
+}
+
+.auth-button {
+	margin: 10px auto 10px auto;
+	cursor: pointer;
+	height: 50px;
+	border-radius: 8px;
+	border: 1px solid #f6791e;
+	background-color: #f6791e;
+	color: #ffffff;
+	box-shadow: none;
+	transition: box-shadow 0.3s ease-in;
+}
+
+.auth-button:hover,
+.auth-button:active {
+	box-shadow: none;
+	background-color: #ffffff;
+	color: #f6791e;
+	transition: box-shadow 0.05s ease-in, background-color 0.05s ease-in,
+		color 0.05s ease-in;
+}
+
+.logo {
+	margin: 5px auto 15px auto;
+}
+
+.universal-title-sz {
+	font-size: 32px;
+}
+
+.universal-header-sz {
+	font-size: 20px;
+}
+
+.universal-button-sz {
+	font-size: 18px;
+}
+
+.universal-base-sz {
+	font-size: 14px;
+}
